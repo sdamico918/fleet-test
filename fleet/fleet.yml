@@ -1,6 +1,6 @@
 namespace: fleet-mc-helm-external-example
 helm:
-  chart: https://github.com/sdamico918/fleet-test/raw/master/charts/hello-nginx.tar.gz
+  chart: https://github.com/brentspector/hello-kubernetes/hello-nginx/
 targetCustomizations:
 - name: dev
   helm:
